@@ -1,0 +1,41 @@
+<!-- Navigation -->
+<nav class="navbar navbar-inverse" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#app-nav">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <!-- Navbar Brand -->
+    <a class="navbar-brand" href="/">
+      <img class="kb-nav-logo" src="/img/kb-mini-logo.png" alt="KB" width="30">
+      <span class="kb-nav-name">Careers</span>
+    </a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="app-nav">
+
+    <!-- Visible only on Extra-Small Displays -->
+    <ul class="nav navbar-nav visible-xs">
+      <li><a href="#" data-toggle="modal" data-target="#xs-home-modal">Home</a></li>
+    </ul>
+    
+    <!-- Visible on Small Displays and Higher -->
+    <ul class="nav navbar-nav hidden-xs">
+      <li id="sm-home-tooltip"><a href="http://kickbacksystems.com">Home</a></li>
+    </ul>
+    
+    <ul id="kb-user" class="nav navbar-nav navbar-right">
+      <li>
+        <div class="current-user-widget small"></div>
+      </li>
+    </ul>
+
+  </div><!-- /.navbar-collapse -->
+
+  {% include xs-home-modal.html %}
+</nav>
+

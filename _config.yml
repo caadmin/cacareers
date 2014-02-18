@@ -1,0 +1,10 @@
+# Site Details
+name: Careers | Cascade Agronomics
+description: The careers page for Cascade Agronomics.
+
+# Config
+markdown: redcarpet
+permalink: pretty
+pygments: true
+timezone: America/Denver
+#url: "http://new.kickbacksystems.com"

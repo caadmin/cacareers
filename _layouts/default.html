@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+
+    <!-- Container starts here -->
+    <div class="container">
+     {% include nav.html %}
+      <!-- Content begins here -->
+      <div class="content">
+
+        <div class="img-header">
+          <img class="img-responsive" src="/img/careers-programmer.jpg" alt="A hot dev">
+        </div>
+
+        {{ content }}
+
+      </div>
+      <!-- Content ends here -->
+
+      <!-- Footer -->
+      <div class="break"></div>
+      <footer>
+        <div class="footer-copy">
+            &#169; 2014 KickBack Rewards Systems LLC. All Rights Reserved.
+        </div>
+      </footer>
+
+    </div><!-- End of Container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <!-- Required scripts should be loaded first -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <!-- Scripts -->
+    <script async src="https://auth.kickbacksystems.com/client-tools"></script>
+    <script>
+      $('#sm-home-tooltip').tooltip({
+        trigger: 'hover',
+        placement: 'bottom',
+        title: 'Return to the KickBack website.'
+      })
+    </script>
+  </body>
+</html>
+

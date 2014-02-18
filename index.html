@@ -1,0 +1,49 @@
+---
+layout: default
+title: Careers
+---
+
+<h1 class="text-center">Come join the team.</h1>
+<p class="text-muted text-center">We are always looking for great talent.</p>
+
+<div class="text-center about-buttons">
+    <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#about-modal">About KickBack Rewards Systems</button>
+    <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#twin-falls-modal">About Twin Falls, ID</button>
+</div>
+
+{% include about-modal.html %}
+{% include twin-falls-modal.html %}
+<br>
+
+<p>
+<strong>KickBack Rewards Systems is on a mission to make good customers better.</strong>  KickBack operates America's largest coalition loyalty program called “KickBack Points.”  With our software solution and loyalty platform that integrates directly in to a merchants point-of-sale system a customer can earn points, valuable rewards and then spend their KickBack points like cash at convenience stores, grocers and major drug chains across the country.  If you are looking for a mature and profitable organization that maintains an innovative atmosphere with a stable management team who likes to work hard and work smart we are likely a good fit.
+</p>
+
+<hr>
+
+<div class="panel-group" id="accordion">
+  {% for post in site.posts %}
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="row"> 
+          <div class="col-xs-10">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#{{ post.accordion-id }}">{{ post.title }}</a>
+            </h4>
+          </div>
+
+          <div class="col-xs-2">
+            <div class="pull-right">
+              <a class="btn btn-sm btn-primary" href="/apply">Apply</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="{{ post.accordion-id }}" class="panel-collapse collapse">
+        <div class="panel-body">
+          {{ post.content }}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
