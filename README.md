@@ -1,5 +1,5 @@
 # Cascade Agronomics Careers
-**Built with Jekyll.**
+(Built with Jekyll.)
 
 ## Prepare
 
