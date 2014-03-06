@@ -8,3 +8,6 @@ permalink: pretty
 pygments: true
 timezone: America/Seattle
 url: "http://cascadeagronomics.us/careers"
+
+# Excludes
+exclude: ['vendor']

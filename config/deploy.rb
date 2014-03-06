@@ -5,19 +5,19 @@ require 'mina/git'
 require 'mina/rvm'    # for rvm support. (http://rvm.io)
 
 set :domain, '162.243.133.244'
-set :deploy_to, '/srv/careers'
+set :deploy_to, '/home/webmaster/cacareers'
 set :repository, 'git://github.com/caadmin/cacareers'
 set :branch, 'master'
 
 # Optional settings:
-set :user, 'root'    # Username in the server to SSH to.
+set :user, 'webmaster'    # Username in the server to SSH to.
 set :term_mode, nil
 
 # This task is the environment that is loaded for most commands, such as
 # `mina deploy` or `mina rake`.
-#task :environment do
-  #invoke :'rvm:use[ruby-2.1.1]'
-#end
+task :environment do
+  invoke :'rvm:use[ruby-2.1.1]'
+end
 
 desc "Deploys the current version to the server."
 task :deploy => :environment do
