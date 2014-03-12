@@ -10,6 +10,7 @@ Moses Lake, WA
 Hermiston, OR
 
 **Job Title:**   TRUCK DRIVER POSITION WITH BENEFITS
+
 **ROUTES:** North Idaho, Washington, Oregon, and British Columbia, Canada.
 
 **Location:**  Moses Lake, WA
