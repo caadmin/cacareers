@@ -9,10 +9,6 @@ Hermiston, OR
 
 **Job Title:** 		Certified Crop Consultant or Agronomist
 
-**Job Number:** 		CA-H06-SD-14
-
-**Division:** 		Sales
-
 **Location:** 		Hermiston, OR
 
 **Job Objective:** 
