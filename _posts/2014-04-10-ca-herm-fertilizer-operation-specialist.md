@@ -17,6 +17,7 @@ To engage in all facets of feedlot-to-field preparation of natural fertilizer pr
 The Fertilizer Operation Specialist plays an integral role in the success and profitability of the Company. He or she is a multi-faceted, multi-tasked, highly organized professional directly responsible for the timely preparation, loading, and transporting of natural fertilizer products for field application; and, using a lowboy to move equipment from location to location.
 
 **The following** **qualifications** **and abilities** **are needed to be considered for this position:**
+
 - High School Diploma; GED/High School Equivalency
 - 2-5+ years of farming, truck driving, and/or fertilizer application experience
 - Possess a current Class A CDL license with endorsements
@@ -56,4 +57,5 @@ The Fertilizer Operation Specialist plays an integral role in the success and pr
 - Ability to read, write, comprehend, and speak English fluently
 - Willingness to participate in random drug and alcohol testing 
 - Willingness to assist and work in any or all areas as needed
-RATE OF PAY: DOE plus overtime (Average overtime: 15 hours per week)
+
+**RATE OF PAY:** DOE plus overtime (Average overtime: 15 hours per week)
