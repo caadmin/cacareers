@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Mechanic
-accordian-id: Mechanic
+accordion-id: Mechanic
 ---
-
 **Cascade Agronomics, LLC**
 
 **Job Title:**    MECHANIC
