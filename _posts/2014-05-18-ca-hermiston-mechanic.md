@@ -1,8 +1,8 @@
-___
+---
 layout: default
 title: Mechanic
 accordian-id: Mechanic
-___
+---
 
 **Cascade Agronomics, LLC**
 
